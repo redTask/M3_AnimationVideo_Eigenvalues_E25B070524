@@ -1,0 +1,72 @@
+1
+00:00:00,050 --> 00:00:02,102
+Now let's actually compute them.
+
+2
+00:00:02,102 --> 00:00:10,867
+Start with A v equals lambda v. Move everything to one side: A v minus lambda v equals zero.
+
+3
+00:00:10,867 --> 00:00:15,676
+To factor v out, write lambda v as lambda I times v.
+
+4
+00:00:15,676 --> 00:00:20,073
+So A minus lambda I, times v, equals zero.
+
+5
+00:00:20,073 --> 00:00:24,294
+We want a nonzero v that this matrix sends to zero.
+
+6
+00:00:24,294 --> 00:00:30,794
+That can only happen if the matrix squashes the plane, which means its determinant is zero.
+
+7
+00:00:30,794 --> 00:00:38,764
+For our matrix, A minus lambda I is two minus lambda, one, one, two minus lambda.
+
+8
+00:00:38,764 --> 00:00:43,779
+Its determinant is two minus lambda, squared, minus one.
+
+9
+00:00:43,779 --> 00:00:53,117
+Expanding gives lambda squared minus four lambda plus three, which factors as lambda minus one, times lambda minus three.
+
+10
+00:00:53,117 --> 00:00:56,205
+So the eigenvalues are one and three.
+
+11
+00:00:56,205 --> 00:01:03,617
+For lambda equals three, the matrix becomes minus one, one, one, minus one.
+
+12
+00:01:03,617 --> 00:01:08,529
+Both rows say y equals x, so v is one, one.
+
+13
+00:01:08,529 --> 00:01:16,647
+For lambda equals one, both rows say x plus y equals zero, so v is one, minus one.
+
+14
+00:01:16,647 --> 00:01:17,764
+Let's check.
+
+15
+00:01:17,764 --> 00:01:23,749
+A times one, one is three, three, which is three times one, one.
+
+16
+00:01:23,749 --> 00:01:30,073
+And A times one, minus one is one, minus one, which is one times itself.
+
+17
+00:01:30,073 --> 00:01:31,323
+Both check out.
+
+18
+00:01:31,323 --> 00:01:39,485
+One more sanity check: the eigenvalues add up to the trace, four, and multiply to the determinant, three.
+

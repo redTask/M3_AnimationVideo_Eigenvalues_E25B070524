@@ -1,0 +1,76 @@
+1
+00:00:00,050 --> 00:00:02,941
+First, let's see what this matrix does.
+
+2
+00:00:02,941 --> 00:00:08,323
+The first column, two one, is where the vector one zero lands.
+
+3
+00:00:08,323 --> 00:00:13,191
+The second column, one two, is where zero one lands.
+
+4
+00:00:13,191 --> 00:00:15,426
+Now try the vector one zero.
+
+5
+00:00:15,426 --> 00:00:19,588
+It lands at two one, which is not on its original line.
+
+6
+00:00:19,588 --> 00:00:22,735
+So one zero is not an eigenvector.
+
+7
+00:00:22,735 --> 00:00:27,926
+Let's rotate a test vector around the origin and compare it with its image.
+
+8
+00:00:27,926 --> 00:00:33,764
+Most of the time, the image points in a different direction, and there's a gap between them.
+
+9
+00:00:33,764 --> 00:00:36,455
+But watch what happens here, at one one.
+
+10
+00:00:36,455 --> 00:00:38,102
+The gap closes.
+
+11
+00:00:38,102 --> 00:00:40,294
+The image is on the same line.
+
+12
+00:00:40,294 --> 00:00:42,999
+And again here, at one minus one.
+
+13
+00:00:42,999 --> 00:00:45,558
+These are our two special directions.
+
+14
+00:00:45,558 --> 00:00:48,308
+Now apply the matrix to the whole grid.
+
+15
+00:00:48,308 --> 00:00:51,073
+Notice that both lines stay where they are.
+
+16
+00:00:51,073 --> 00:00:54,573
+Along the yellow line, everything is stretched.
+
+17
+00:00:54,573 --> 00:00:58,132
+Along the green line, everything keeps its length.
+
+18
+00:00:58,132 --> 00:01:01,397
+These lines are the skeleton of the transformation.
+
+19
+00:01:01,397 --> 00:01:04,382
+The rest of the plane is just mixing the two.
+

@@ -1,0 +1,24 @@
+1
+00:00:00,050 --> 00:00:01,132
+To recap.
+
+2
+00:00:01,132 --> 00:00:10,367
+One: an eigenvector is a direction that a matrix only stretches or flips, written A v equals lambda v.
+
+3
+00:00:10,367 --> 00:00:17,411
+Two: we find the eigenvalues by solving the determinant of A minus lambda I equals zero.
+
+4
+00:00:17,411 --> 00:00:22,897
+Three: each eigenvalue is the scaling factor along its eigenvector.
+
+5
+00:00:22,897 --> 00:00:24,191
+Thanks for watching.
+
+6
+00:00:24,191 --> 00:00:29,264
+References, music credit and AI disclosure are on screen.
+

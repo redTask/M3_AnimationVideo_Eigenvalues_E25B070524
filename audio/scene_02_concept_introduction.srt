@@ -1,0 +1,44 @@
+1
+00:00:00,050 --> 00:00:04,764
+Let A be a two by two matrix, and v a vector in the plane.
+
+2
+00:00:04,764 --> 00:00:07,485
+Usually A v points somewhere new.
+
+3
+00:00:07,485 --> 00:00:11,632
+But sometimes A v lands on the same line as v.
+
+4
+00:00:11,632 --> 00:00:15,132
+Then A v is just a scalar multiple of v.
+
+5
+00:00:15,132 --> 00:00:18,882
+We write this as A v equals lambda v.
+
+6
+00:00:18,882 --> 00:00:23,941
+The vector v, which must not be zero, is called an eigenvector.
+
+7
+00:00:23,941 --> 00:00:26,691
+The number lambda is its eigenvalue.
+
+8
+00:00:26,691 --> 00:00:30,779
+If lambda is bigger than one, the vector stretches.
+
+9
+00:00:30,779 --> 00:00:33,955
+Between zero and one, it shrinks.
+
+10
+00:00:33,955 --> 00:00:36,602
+If lambda is negative, it flips.
+
+11
+00:00:36,602 --> 00:00:41,088
+Our goal: find all such pairs, lambda and v.
+

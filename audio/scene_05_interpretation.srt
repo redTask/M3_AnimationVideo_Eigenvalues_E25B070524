@@ -1,0 +1,36 @@
+1
+00:00:00,050 --> 00:00:01,955
+What do these numbers tell us?
+
+2
+00:00:01,955 --> 00:00:07,985
+Along the direction one, one, the matrix stretches everything by three.
+
+3
+00:00:07,985 --> 00:00:12,470
+Along one, minus one, it leaves everything alone.
+
+4
+00:00:12,470 --> 00:00:16,441
+Now take any other vector, say two, zero.
+
+5
+00:00:16,441 --> 00:00:21,852
+We can write it as one copy of the yellow vector plus one copy of the green one.
+
+6
+00:00:21,852 --> 00:00:26,970
+Apply the matrix: the yellow part triples, the green part stays.
+
+7
+00:00:26,970 --> 00:00:32,705
+Together that gives four, two, exactly what the matrix gives directly.
+
+8
+00:00:32,705 --> 00:00:39,588
+So eigenvectors turn a messy transformation into simple stretching along two directions.
+
+9
+00:00:39,588 --> 00:00:46,544
+And the area of any shape is scaled by three times one, which is three, the determinant.
+

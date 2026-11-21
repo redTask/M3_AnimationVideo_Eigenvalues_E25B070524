@@ -1,0 +1,32 @@
+1
+00:00:00,050 --> 00:00:04,308
+Take any vector in the plane and apply this matrix to it.
+
+2
+00:00:04,308 --> 00:00:05,573
+Watch the grid.
+
+3
+00:00:05,573 --> 00:00:12,235
+It stretches, it tilts, and almost every vector is knocked off the line it started on.
+
+4
+00:00:12,235 --> 00:00:13,220
+Almost.
+
+5
+00:00:13,220 --> 00:00:16,161
+A few special directions refuse to turn.
+
+6
+00:00:16,161 --> 00:00:19,823
+They only get longer, shorter, or flipped.
+
+7
+00:00:19,823 --> 00:00:23,058
+Which directions are these, and why do they matter?
+
+8
+00:00:23,058 --> 00:00:24,338
+Let's find out.
+
